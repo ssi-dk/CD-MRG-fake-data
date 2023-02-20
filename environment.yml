@@ -1,0 +1,12 @@
+name: /home/filip/wsl_Projects/CD-MRG-fake-data/.env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - faker
+  - numpy
+  - pandas
+  - ipykernel
+prefix: /home/filip/wsl_Projects/CD-MRG-fake-data/.env
