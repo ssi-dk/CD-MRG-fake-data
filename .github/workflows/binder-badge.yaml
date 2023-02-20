@@ -1,11 +1,13 @@
-name: binder-badge
+name: 'Trigger-Binder-build'
 on:
-  pull_request_target:
+  push:
+    branches:
+      - <binder-branch>
 
 jobs:
-  badge:
-    runs-on: ubuntu-latest
+  trigger-binder-build:
+    runs-on: [ubuntu-latest]
     steps:
-      - uses: manics/action-binderbadge@main
+      - uses: s-weigand/trigger-mybinder-build@v1
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          target-repo: ssi-dk/CD-MRG-fake-data
