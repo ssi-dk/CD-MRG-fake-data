@@ -9,4 +9,6 @@ dependencies:
   - numpy
   - pandas
   - ipykernel
+  - pip:
+    - faker-biology
 prefix: /home/filip/wsl_Projects/CD-MRG-fake-data/.env
