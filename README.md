@@ -2,4 +2,4 @@
 
 
 # CD-MRG-fake-data
-Notebook shoing how to create fake data for our typical case-control studies.
+Notebook showing how to create fake data for our typical case-control studies.
